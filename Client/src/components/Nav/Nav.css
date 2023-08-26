@@ -1,0 +1,91 @@
+.home_form{
+    position: fixed;
+    /* display: flex; */
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image:linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.85) 20%,
+        rgba(0, 0, 0, 0.4) 60%,
+        rgba(0, 0, 0, 0.04) 100%
+    );
+}
+
+.nav_content{
+    display: flex;
+}
+
+.search_bar{
+    position: fixed;
+    /* display: flex; */
+
+}
+
+.links_form {
+    margin-top: -30px;
+    padding: 10px;
+    margin-left: 35%;
+    /* min-width: 450px; */
+}
+
+.links_form > ul > li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.links_form > ul > li > a {
+    color: #c6c6c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.home_form > div > .button_bar{
+    position: fixed;
+    display: flex;
+    right: 2%;
+    height: 25px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.home_form > div > .button_moon{
+    position: fixed;
+    display: flex;
+    margin-right: 10px;
+    right: 4%;
+    height: 25px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+/* .button_bar{
+    position: fixed;
+    right: 45px;
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+} */

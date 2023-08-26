@@ -1,0 +1,15 @@
+.detail_card{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-top: 100px;
+    width: 300px;
+    background-color: rgb(231, 241, 136);
+}
+.detail_card > img{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 5px;
+    border-radius: 35px 5px 35px 5px;
+
+}

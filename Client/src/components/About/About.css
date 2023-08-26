@@ -1,0 +1,23 @@
+.about{
+    color: #111;
+    margin-top: 15%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    background: url('https://p4.wallpaperbetter.com/wallpaper/791/407/687/minimalism-silhouette-cartoon-sanchez-wallpaper-preview.jpg') no-repeat;
+    background-size: 100% 100%;
+    max-width: 55%;
+    left: 30%;
+    height: 350px;
+    padding: 20px;
+}
+.about > p{
+    text-align: justify;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    color: #1c7f35;
+    padding: 15px 0 0 0;
+}
+.about > h1{
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+/* .favorites{
+    display: inline-block;
+} */
+
+.favorites_options{
+    display: grid;
+    /* position: absolute; */
+    position: sticky;
+    margin-top: 60px;
+    left: 10px;
+    margin-right: 80%;
+}

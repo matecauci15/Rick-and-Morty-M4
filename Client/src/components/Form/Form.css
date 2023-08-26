@@ -1,0 +1,50 @@
+h1{
+    margin-top: -10px;
+} 
+
+.centered-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 450px;
+}
+
+.principal_back{
+    background: linear-gradient(135deg, #386f3e 0%, #03ff92 100%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), inset 0 0 10px rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-form > form > div > label {
+    font-weight: bold;
+}
+
+.centered-form > form > div > input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button_submit {
+    background-color: #319569;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button_submit:hover {
+    background-color: #02d17e;
+}
+

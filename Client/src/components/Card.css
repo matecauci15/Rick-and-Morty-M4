@@ -1,0 +1,44 @@
+.card{
+    display: inline-block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5%;
+    /* background: url('https://wallpapers.com/images/hd/rick-and-morty-under-the-starry-sky-ksjfa0jmi1b2cj4n.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://wallpapers.com/images/hd/rick-and-morty-under-the-starry-sky-ksjfa0jmi1b2cj4n.jpg');
+    background-size: cover;
+    height: 100%;
+}
+div > .card > .card_id {
+    margin-left: 90%;
+    font-size: 1rem;
+    color: rgb(233, 255, 69);
+}
+
+.card > p{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.card_name{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.card > img {
+    width: 200px;
+    border-radius: 5px 30px 5px 30px;
+}
+.close_card{
+    border: none;
+    background: none;
+    font-size: large;
+    color: #fff;
+}
+.isfav{
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    background: none;
+}
